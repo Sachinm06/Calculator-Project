@@ -121,3 +121,9 @@ body {
 .back{
    color: #2196f3;
 }
+.copyright{
+    text-align: center;
+    color: #6b6464;
+    font-size: 15px;
+    margin-top: 10px;
+}
