@@ -36,11 +36,13 @@ body {
 }
 
 .calculator .value {
+
     position: relative;
     grid-column: span 4;
     height: 100px;
-    width: 100%;
-    border: none;
+    left: 10px;
+    width: calc(100% - 20px);
+    border : none;
     outline: none;
     background: #7af7;
     margin-bottom: 10px;
@@ -100,7 +102,7 @@ body {
 .calculator .clear{
     background: red;
     grid-column: span 2;
-    width: 185px;
+    width: 190px;
 }
 .calculator .clear:before{
     background: linear-gradient(90deg, #d20000, #ffffff5c);
@@ -110,9 +112,12 @@ body {
 }
 .calculator .plus{
     grid-row: span 2;
-    height: 175px;
+    height: 180px;
 }
 .calculator .equal{
-    background:#2196f3;
-
+    color: #2196f3;
+   
+}
+.back{
+   color: #2196f3;
 }
