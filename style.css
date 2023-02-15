@@ -51,6 +51,7 @@ body {
     text-align: right;
     padding: 10px;
     font-size: 2rem;
+    pointer-events: none;
 }
 
 .calculator span {
